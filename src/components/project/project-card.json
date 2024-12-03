@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_project_project_cards",
+  "info": {
+    "displayName": "ProjectCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "uploadfiles": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

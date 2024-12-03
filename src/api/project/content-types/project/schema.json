@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "rCloud",
+        "Design",
+        "Development",
+        "Training"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "uploadfiles": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "text"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "Support KMUTT’s organization projects (งานภายใน)",
+        "Consultant & Outsource projects (งานภายนอก)"
+      ]
+    },
+    "tag2": {
+      "type": "enumeration",
+      "enum": [
+        "Support KMUTT’s organization projects (งานภายใน)",
+        "Consultant & Outsource projects (งานภายนอก)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tag_category_tags",
+  "info": {
+    "displayName": "Tag"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "Support KMUTT’s organization projects (งานภายใน)",
+        "Consultant & Outsource projects (งานภายนอก)"
+      ]
+    }
+  }
+}

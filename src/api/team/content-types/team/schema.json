@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "Team",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_en": {
+      "type": "string"
+    },
+    "name_th": {
+      "type": "string"
+    },
+    "surname_en": {
+      "type": "string"
+    },
+    "surname_th": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_th": {
+      "type": "text"
+    },
+    "uploadfiles": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "MIS",
+        "rCloud",
+        "Board of Management"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "staff",
+        "partner",
+        "intern"
+      ]
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
